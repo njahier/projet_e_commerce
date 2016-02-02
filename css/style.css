@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.marge {
+  margin: 0 2em;
+}
+body>.navbar-default .navbar-nav>li>a>.fa-github-alt {
+  font-size: 2em;
+}
+#marque{
+  font-size: 3em;
+  font-weight: bold;
+}
+.navbar-default ul li a:hover{
+  color:#B0EC99 !important;
+}
+.navbar-default{
+  margin-bottom: 0;
+}
