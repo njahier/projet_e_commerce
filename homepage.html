@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/homepage.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand:400,700">
 </head>
 
 <body>
@@ -20,46 +20,60 @@
           <li id="marque"><a href="#">TEDAUBERT</a></li>
         </ul>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav pull-right">
-          <li><a href="#">Homepage</a></li>
-          <li><a href="#">Catalogue</a></li>
-          <li><a href="#">Panier</a></li>
+          <li><a href="homepage.html">Homepage</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="panier.html">Panier</a></li>
         </ul>
       </div>
     </div>
   </nav>
-      <img src="images/shoes.jpg" class="imagehomepage" />
-<div class="row">
-  <div class="col-md-6">
-  <section>
-    <div class="apropos">
-
-  <h2>A Propos</h2>
-  <p>
-    Nous sommes Tedaubert, précurseurs textile depuis 10 ans, dans l'artisanat du vêtement pour enfants.
-Soucieux de la qualité de nos produits, nous nous fournissons directement auprès de nos créateurs régionaux.
-Pour le plus grand plaisir des enfants !
-  </p>
-</div>
-</div>
-<div class="col-md-6">
-
-  <form id="form6"  method="" action="">
-    <label>Contact Us</label>
-    <input type="text" name="name" placeholder="Your Name" id="name">
-    <input type="email" name="email" placeholder="Email Address" id="email">
-    <textarea name="message" rows=5 placeholder="Type your Message" id="message"></textarea>
-    <input class="button" type="submit" value="Send" id="submit">
-  </form>
-</section>
-</div>
-</div>
-
+  <div class="row" id="imagehomepage">
+    <div class="col-md-12">
+      <img alt="" src="images/shoes.jpg" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <img alt="" src="http://placehold.it/300x300" />
+      <h3>Nom article</h3>
+      <p>Prix</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img alt="" src="http://placehold.it/300x300" />
+      <h3>Nom article</h3>
+      <p>Prix</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img alt="" src="http://placehold.it/300x300" />
+      <h3>Nom article</h3>
+      <p>Prix</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6" id="apropos">
+      <div>
+        <h2>A Propos</h2>
+        <p>
+          Nous sommes Tedaubert, précurseurs textile depuis 10 ans, dans l'artisanat du vêtement pour enfants. Soucieux de la qualité de nos produits, nous nous fournissons directement auprès de nos créateurs régionaux. Pour le plus grand plaisir des enfants !
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <form id="contact" method="" action="">
+        <label>Contactez-nous</label>
+        <input type="text" name="name" placeholder="Votre nom" id="name">
+        <input type="email" name="email" placeholder="Votre adresse email" id="email">
+        <textarea name="message" rows=5 placeholder="Votre message" id="message"></textarea>
+        <button id="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
   <footer class="navbar navbar-default navbar-bottom no-padding">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav marge">
-        <li><a href="#">©2006</a></li>
+        <li><a href="#">© 2006</a></li>
       </ul>
       <ul class="nav navbar-nav pull-right marge">
         <li><a href="#"><i class="fa fa-facebook"></i></a></li>

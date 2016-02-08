@@ -1,25 +1,37 @@
-*{
-  padding: 0;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
 }
 
 .marge {
   margin: 0 2em;
 }
+
 body>.navbar-default .navbar-nav>li>a>.fa-github-alt {
   font-size: 2em;
 }
-#marque{
+
+.navbar-default + div {
+  margin-top: 6em;
+}
+
+#marque {
   font-size: 3em;
   font-weight: bold;
 }
-.navbar-default ul li a:hover{
-  color:#B0EC99 !important;
+
+.navbar-default ul li a:hover {
+  color: #B0EC99 !important;
 }
-.navbar-default{
+
+.navbar-default {
   margin-bottom: 0;
 }
