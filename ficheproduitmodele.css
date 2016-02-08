@@ -1,0 +1,17 @@
+
+.no-padding{
+  margin: 0;
+  padding:0;
+}
+
+div .row .marge{
+
+}
+.form-control{
+  width: 70%;
+}
+
+div> .row.taille{
+  padding-top: 2em;
+  height:4em;
+}
