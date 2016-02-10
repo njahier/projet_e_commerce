@@ -1,6 +1,3 @@
-var panier = [0, 1, 2, 3];
-sessionStorage.setItem("panierEnregistre", JSON.stringify(panier));
-
 function afficherPanier() {
   panier = JSON.parse(sessionStorage.panierEnregistre);
   var elementPanier = document.getElementById("panier");
