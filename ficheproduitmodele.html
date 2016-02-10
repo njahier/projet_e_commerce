@@ -29,14 +29,18 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid no-padding">
-  <div class="row marge">
-     <div class="col-md-12">
-       <div class="col-md-5 col-offset-1">
+
+  <div class="espace">
+  </div>
+
+  <div class="container">
+  <div class="row image">
+     <div class="col-md-12" id="borderspecial">
+       <div class="col-md-5">
        <img src="images/tee_shirt_garcon.jpg">
        </div>
        <div class="col-md-4">
-       <h2>T-Shirt Rouge</h2>
+       <h2>T-Shirt Rouge garçon</h2>
        <p>T-Shirt manche courte rouge, encolure chemise avec 2 boutons.</p>
 
        <i class="fa fa-reddit-alien"></i>
@@ -44,40 +48,83 @@
        <i class="fa fa-reddit-alien"></i>
        <p>Conseil de lavage</p>
        </div>
-       <div class="col-md-2">
-       <button type="button" class="btn btn-success">Retour</button>
+       <div class="col-md-3">
+       <button type="button" class="btn btn-success retour">Retour</button>
      </div>
    </div>
  </div>
 
   <div class="row taille">
-  <div class="col-md-12">
+  <div class="col-md-12" id="borderspecial">
     <div class="col-md-5 col-md-offset-1">
-      <p>TAILLE</p><select class="form-control" style="width:70%">
-  <option>1A</option>
-  <option>2A</option>
-  <option>3A</option>
-  <option>4A</option>
-  <option>5A</option>
-  <option>6A</option>
-  <option>7A</option>
-  <option>8A</option>
-  <option>9A</option>
-  <option>10A</option>
- </select>
- <select><input type="number" /> 
-      <p>QUANTITE</p>
-		</select>
+      <p>TAILLE</p>
+      <select class="form-control">
+        <option>1A</option>
+        <option>2A</option>
+        <option>3A</option>
+        <option>4A</option>
+        <option>5A</option>
+        <option>6A</option>
+        <option>7A</option>
+        <option>8A</option>
+        <option>9A</option>
+        <option>10A</option>
+       </select>
 
 
-  </div>
-  <div class="col-md-4">
-  <h2>Prix 6€</h2>
-  <button type="button" class="btn btn-success">Ajouter au panier</button>
+      <label for="q">QUANTITE: </label>
+<select id="qt" name="q">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select>
+    </div>
+
+    <div class="row">
+  <div class="col-md-5">
+  <h2>Prix: 6€</h2>
+  <button type="button" class="btn btn-success" id="boutonpanier">Ajouter au panier</button>
 </div>
+</div>
+</div>
+</div>
+
+<div class="row commentaires">
+<div class="col-md-12" id="borderspecial">
+<div>
+  <h2 class="commentaires">Commentaires</h2>
+<div class="col-md-4">
+  <p>Pseudo: Fifi57</p>
+  <p>Pseudo: Lapin12</p>
+</div>
+<div class="col-md-5">
+  <p>Contente de mon achat.</p>
+  <p>Je recommande.</p>
+
+</div>
+<div class="col-md-2">
+  <p> Note:  <i class="fa fa-reddit-alien"></i> <i class="fa fa-reddit-alien"></i>
+  <i class="fa fa-reddit-alien"></i></p>
+  <p> Note:  <i class="fa fa-reddit-alien"></i> <i class="fa fa-reddit-alien"></i>
+   <i class="fa fa-reddit-alien"></i></p>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="espace">
 </div>
   <div class="row"></div>
-    <footer class="navbar navbar-default navbar-fixed-bottom">
+    <footer class="navbar navbar-default navbar-fixed-bottom no padding">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav marge">
             <li><a href="#">©2006</a></li>

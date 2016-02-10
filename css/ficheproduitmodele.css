@@ -3,15 +3,46 @@
   margin: 0;
   padding:0;
 }
+*{
+  padding: 0;
+  margin: 0;
+}
 
-div .row .marge{
+.espace{
+  height: 7em;
+}
+div< .image{
+  padding-top: 2em;
+}
 
+#borderspecial{
+  border: solid 2px #B0EC99;
+  border-radius: 5px;
 }
 .form-control{
   width: 70%;
 }
 
-div> .row.taille{
+.retour{
+  float: right;
+  margin-top: 2em;
+}
+
+div> .taille{
   padding-top: 2em;
-  height:4em;
+  margin-top: 2em;
+}
+
+#boutonpanier{
+ margin-bottom: 1em;
+ 
+}
+
+.commentaires{
+  text-align: center;
+}
+
+div> .row.commentaires{
+padding-top: 2em;
+margin-top: 2em;
 }
