@@ -9,9 +9,13 @@
   <link rel="stylesheet" type="text/css" href="css/ficheproduitmodele.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+  <script src="js/fake_bdd.js"></script>
+  <script src="js/params.js"></script>
+  <script src="js/ficheproduitmodele.js"></script>
+
 </head>
 
-<body>
+<body onload="afficher_fiche()">
   <nav class="navbar navbar-default navbar-fixed-top no-padding">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -34,14 +38,14 @@
   </div>
 
   <div class="container">
-  <div class="row image">
+  <div class="row image" id="catalogue">
      <div class="col-md-12" id="borderspecial">
-       <div class="col-md-5">
-       <img src="images/tee_shirt_garcon.jpg">
+       <div id="divimage" class="col-md-5">
+       <img id="photo" src="">
        </div>
        <div class="col-md-4">
-       <h2>T-Shirt Rouge garçon</h2>
-       <p>T-Shirt manche courte rouge, encolure chemise avec 2 boutons.</p>
+       <h2 id="titre"></h2>
+       <p id="description"></p>
 
        <i class="fa fa-reddit-alien"></i>
        <i class="fa fa-reddit-alien"></i>
@@ -88,7 +92,7 @@
 
     <div class="row">
   <div class="col-md-5">
-  <h2>Prix: 6€</h2>
+  <h2 id="prix"></h2>
   <button type="button" class="btn btn-success" id="boutonpanier">Ajouter au panier</button>
 </div>
 </div>

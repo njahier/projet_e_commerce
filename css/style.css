@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1em;
+  
 }
 
 .marge {
@@ -31,8 +31,6 @@ body>.navbar-default .navbar-nav>li>a>.fa-github-alt {
 .navbar-default ul li a:hover {
   color: #B0EC99 !important;
 }
-
-.navbar-default {
-  margin-bottom: 0;
-  position: relative;
+.navbar-default{
+  margin-bottom:0;
 }
