@@ -50,5 +50,18 @@ function afficherCatalogue() {
     var elementParagraphe = document.createElement("p");
     elementParagraphe.innerHTML = catalogue[i].description;
     elementRow.appendChild(elementParagraphe);
+
+    var elementPrix = document.createElement("span");
+    elementPrix.innerHTML = catalogue[i].prix;
+    elementRow.appendChild(elementPrix);
+
+    var elementLink = document.createElement("a");
+    elementArticle.appendChild(elementLink);
+    elementLink.href = "ficheproduitmodele.html?idarticle="+ i;
+    elementLink.innerHTML = "accéder à la fiche produit";
+    elementLink.style.padding="19em";
+
+
+
   }
 }

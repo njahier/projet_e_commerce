@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1em;
+
 }
 
 .marge {
@@ -34,5 +34,5 @@ body>.navbar-default .navbar-nav>li>a>.fa-github-alt {
 
 .navbar-default {
   margin-bottom: 0;
-  position: relative;
+
 }
