@@ -1,63 +1,66 @@
-*{
-  padding: 0;
-  margin: 0;
+#imagehomepage {
+  margin-bottom: 2em;
 }
 
-.imagehomepage{
+#imagehomepage img {
   width: 100%;
 }
 
-
-#form6 {
-  width: 400px;
-  background-color: #F7F7F7;
-  padding-bottom: 40px;
-  margin: 1em auto;
-  border-radius: 5px;
+#apropos {
+  margin: auto;
+  text-align: center;
 }
 
-#form6 * {
+#apropos div {
+  width: 90%;
+  margin: 1em auto;
+  padding: 2em;
+  border: solid 2px #B0EC99;
+  border-radius: 1em;
+}
+
+#contact {
+  width: 90%;
+  margin: 1em auto;
+  background-color: #F7F7F7;
+  padding-bottom: 2em;
+  border-radius: 1em;
+}
+
+#contact * {
   display: block;
 }
 
-#form6 label {
-  font-size: 24px;
-  background-color: #43D1AF;
-  text-align: center;
+#contact label {
   padding: 20px 0;
+  background-color: #B0EC99;
   color: #FFF;
-  border-radius: 5px 5px 0 0;
+  font-size: 2.5em;
+  text-align: center;
+  border-radius: 0.4em 0.4em 0 0;
 }
 
-#form6 input {
-  margin: auto;
-  width: 360px;
-  height: 35px;
-  margin: 10px 20px;
-  padding: 5px;
+#contact input {
+  width: 90%;
+  margin: 1em auto;
+  height: 2.5em;
+  padding: 0.5em;
   border: solid 1px #CCC;
 }
 
-#form6 textarea {
+#contact textarea {
+  width: 90%;
   margin: auto;
-  width: 360px;
-  margin: 10px 20px;
-  padding: 5px;
+  margin: 1em auto;
+  padding: 0.5em;
   border: solid 1px #CCC;
 }
-
-#form6 .button {
-  width: 360px;
-  background-color: #43D1AF;
+#contact button {
+  width: 90%;
+  margin: 0.5em auto;
+  background-color: #B0EC99;
   color: #FFF;
-  border: solid 1px #30C29E;
-  border-bottom: solid 2px #30C29E;
-  padding: 10px;
-}
-.apropos{
-margin: auto;
-text-align: center;
-}
-.navbar-default{
-  margin-bottom: 0;
+  font-size: 1.5em;
+  padding: 1em;
+  border: none;
 }
