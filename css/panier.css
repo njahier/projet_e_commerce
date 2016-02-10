@@ -1,9 +1,12 @@
-div.head {
-  border-bottom: solid 2px #E6E6E6;
-  padding: 0.5em;
+#panier img {
+  width: 100px;
+  height: 100px;
+  margin: 0 15px;
 }
 
-div.article {
-  border-bottom: solid 1px #E6E6E6;
-  padding: 0.5em;
+#panier h4 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  text-transform: capitalize;
 }
