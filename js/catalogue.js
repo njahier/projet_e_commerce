@@ -52,7 +52,7 @@ function afficherCatalogue() {
     elementRow.appendChild(elementParagraphe);
 
     var elementPrix = document.createElement("span");
-    elementPrix.innerHTML = catalogue[i].prix;
+    elementPrix.innerHTML = catalogue[i].prix + " €";
     elementRow.appendChild(elementPrix);
 
     var elementLink = document.createElement("a");
