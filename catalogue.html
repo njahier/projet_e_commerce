@@ -2,104 +2,99 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/catalogue.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
-  <script src="js/fake_bdd.js" type="text/javascript"></script>
-  <script src="js/params.js" type="text/javascript"></script>
-  <script src="js/catalogue.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/catalogue.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/fake_bdd.js" type="text/javascript"></script>
+    <script src="js/params.js" type="text/javascript"></script>
+    <script src="js/catalogue.js" type="text/javascript"></script>
 
 </head>
 
 <body onload="afficherCatalogue()">
-  <nav class="navbar navbar-default navbar-fixed-top no-padding">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <ul class="nav navbar-nav marge">
-          <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-          <li id="marque"><a href="homepage.html">TEDAUBERT</a></li>
-        </ul>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav pull-right">
-          <li><a href="homepage.html">Homepage</a></li>
-          <li><a href="catalogue.html">Catalogue</a></li>
-          <li><a href="panier.html">Panier</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-<div class="espace">
-
-</div>
-  <div class="row">
-    <div id="catalogue" class="col-md-7 col-md-offset-1">
-
-      <!-- <div class="article">
-        <div class="row">
-          <div class="col-md-6">
-            <img id="image" alt="" />
-          </div>
-          <div class="col-md-6">
-            <h3 id="titre"></h3>
-            <i class="fa fa-reddit-alien"></i>
-            <i class="fa fa-reddit-alien"></i>
-            <i class="fa fa-reddit-alien"></i>
-            <i class="fa fa-reddit-alien"></i>
-            <p id="description"></p>
-          </div>
+    <nav class="navbar navbar-default navbar-fixed-top no-padding">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav marge">
+                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                    <li id="marque"><a href="homepage.html">TEDAUBERT</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="homepage.html">Homepage</a></li>
+                    <li><a href="catalogue.html">Catalogue</a></li>
+                    <li><a href="panier.html">Panier</a></li>
+                </ul>
+            </div>
         </div>
-      </div> -->
+    </nav>
+
+    <div class="row">
+        <div id="catalogue" class="col-md-7 col-md-offset-1">
+
+            <!-- <div class="article">
+            <div class="row">
+            <div class="col-md-6">
+            <img id="image" alt="" />
+        </div>
+        <div class="col-md-6">
+        <h3 id="titre"></h3>
+        <i class="fa fa-reddit-alien"></i>
+        <i class="fa fa-reddit-alien"></i>
+        <i class="fa fa-reddit-alien"></i>
+        <i class="fa fa-reddit-alien"></i>
+        <p id="description"></p>
     </div>
-    <div class="col-md-2 col-md-offset-1">
-      <div class="categories">
+</div>
+</div> -->
+</div>
+<div class="col-md-2 col-md-offset-1">
+    <div class="categories">
         <h3>Categories</h3>
         <ul>
 
-        <li><a href="#"><i class="fa fa-female"></i> Fille</a></li>
-        <li><a href="#"><i class="fa fa-male"></i> Garçon</a></li>
-      </ul>
-      </div>
-      <div class="prix">
-          <h3>Prix</h3>
-          <ul>
-
-          <li><a href="#">0€ - 20€</a></li>
-          <li><a href="#">20€ - 50€</a></li>
-          <li><a href="#">50€ - 100€</a></li>
-          <li><a href="#">100€ et plus</a></li>
+            <li><a href="#"><i class="fa fa-female"></i> Fille</a></li>
+            <li><a href="#"><i class="fa fa-male"></i> Garçon</a></li>
         </ul>
-      </div>
-      <div class="popularité">
+    </div>
+    <div class="prix">
+        <h3>Prix</h3>
+        <ul>
+            <li><a href="#">0€ - 20€</a></li>
+            <li><a href="#">20€ - 50€</a></li>
+            <li><a href="#">50€ - 100€</a></li>
+            <li><a href="#">100€ et plus</a></li>
+        </ul>
+    </div>
+    <div class="popularité">
         <h3>Popularité</h3>
         <ul>
-          <li><a href="#"> <i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
-          <li><a href="#"><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
-          <li><a href="#"><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
-          <li><a href="#"><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
-          <li><a href="#"><i class="fa fa-reddit-alien"></i></a></li>
-                 </ul>
-
-      </div>
+            <li><a href="#"> <i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit-alien"></i><i class="fa fa-reddit-alien"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit-alien"></i></a></li>
+        </ul>
 
     </div>
-  </div>
-<div class="espace">
 
 </div>
-    <footer class="navbar navbar-default navbar-fixed-bottom">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav marge">
-            <li><a href="#">©2006</a></li>
-          </ul>
-          <ul class="nav navbar-nav pull-right marge">
+</div>
+
+<footer class="navbar navbar-default navbar-fixed-bottom no-padding">
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav marge">
+            <li><a href="#">© 2006</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right marge">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          </ul>
-        </div>
-    </footer>
+        </ul>
+    </div>
+</footer>
 </body>

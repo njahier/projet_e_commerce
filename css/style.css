@@ -8,7 +8,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .marge {
@@ -19,9 +20,7 @@ body>.navbar-default .navbar-nav>li>a>.fa-github-alt {
   font-size: 2em;
 }
 
-.navbar-default + div {
-  margin-top: 6em;
-}
+
 
 #marque {
   font-size: 3em;
