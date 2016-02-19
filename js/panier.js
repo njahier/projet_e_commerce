@@ -1,32 +1,30 @@
-function afficherPanier() {
-  panier = JSON.parse(sessionStorage.panierSauvegarde);
-  var elementPanier = document.getElementById("panier");
+$(document).ready(function(){
+    panier = jQuery.parseJSON(sessionStorage.panierSauvegarde);
+    var elementPanier = $("#panier");
+     for (var i = 0; i < panier.length; i++){
+         console.log("coucou");
+         var elementTr = $("<tr/>").appendTo(elementPanier);
+         var elementTdProduit = $("<td/>").appendTo(elementTr);
+         var elementTdTaille = $("<td/>",{
+             "html" : panier[i].taille
+         }).appendTo(elementTr);
 
-  for (var i = 0; i < panier.length; i++) {
+         var elementTdQuantite = $("<td/>").appendTo(elementTr);
+         var elementTdPrix = $("<td/>",{
+             "html" : catalogue[panier[i].id].prix + "€"
+         }).appendTo(elementTr);
 
-    var elementTr = document.createElement("tr");
-    var elementTdProduit = document.createElement("td");
-    var elementTdTaille = document.createElement("td");
-    var elementTdQuantite = document.createElement("td");
-    var elementTdPrix = document.createElement("td");
-    var elementImg = document.createElement("img");
-    var elementH4 = document.createElement("h4");
-    var elementInput = document.createElement("input");
+         var elementImg = $("<img/>",{
+             "src" : catalogue[panier[i].id].photo
+         }).appendTo(elementTdProduit);
 
-    elementImg.src = catalogue[panier[i].id].photo;
-    elementH4.innerHTML = catalogue[panier[i].id].titre;
-    elementTdTaille.innerHTML = panier[i].taille;
-    elementInput.type = "number";
-    elementInput.value = panier[i].quantite;
-    elementTdPrix.innerHTML = catalogue[panier[i].id].prix + " €";
+         var elementH4 = $("<h4/>",{
+             "html" : catalogue[panier[i].id].titre
+         }).appendTo(elementTdProduit);
 
-    elementTdProduit.appendChild(elementImg);
-    elementTdProduit.appendChild(elementH4);
-    elementTdQuantite.appendChild(elementInput);
-    elementTr.appendChild(elementTdProduit);
-    elementTr.appendChild(elementTdTaille);
-    elementTr.appendChild(elementTdQuantite);
-    elementTr.appendChild(elementTdPrix);
-    elementPanier.appendChild(elementTr);
-  }
-}
+         var elementInput = $("<input/>",{
+             "type" : "number",
+             "value": panier[i].quantite
+         }).appendTo(elementTdQuantite);
+     }
+});
